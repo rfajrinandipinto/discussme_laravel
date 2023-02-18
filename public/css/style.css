@@ -1,0 +1,66 @@
+/**
+    TODO: 
+        - Implement responsive user interface
+        - Styling user interface (if need)
+*/
+
+/*Import Font from Google font*/
+
+:root {
+    --primary: #c075ea;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* Clear default margin */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+    margin: 0;
+}
+
+/* Color Class */
+
+.primary-color {
+    color: #c075ea;
+}
+
+.primary-bg {
+    background-color: #f7e4ff;
+}
+
+/* NAVBAR */
+.nav-link:hover {
+    color: var(--primary);
+}
+#navbarNavDropdown {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Sidebar Menu */
+
+.menu-active {
+    color: #c075ea;
+    background-color: #f7e4ff;
+}
+
+.sidebar img {
+    fill: gray;
+}
+
+/* icon sizing */
+
+.like-icon img,
+.comment-icon img {
+    width: 20px;
+}
